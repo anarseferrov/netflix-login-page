@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Neue;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url(images/land.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 260px;
+    height: 105px;
+}
+
+img {
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.form {
+    background: rgba(0, 0, 0, 0.75);
+    width: 480px;
+    padding: 40px 80px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.sign-up h1 {
+    color: white;
+}
+
+.sign-up input[type="text"],
+input[type="password"] {
+    padding: 14px 16px;
+    background-color: #333333;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    margin: 15px auto;
+    border: none;
+    border-radius: 3px;
+}
+
+.sign-up button {
+    width: 100%;
+    padding: 13px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    background-color: #E50914;
+    border: none;
+    border-radius: 3px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.sign-up input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+
+.sign-up label {
+    color: rgb(161, 161, 161);
+    font-size: 13px;
+}
+
+.lab {
+    padding-top: 12px;
+}
+
+.lab a {
+    padding-top: 5px;
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+    font-size: 13px;
+    float: right;
+    clear: both;
+}
+
+.lab a:hover {
+    text-decoration: underline;
+}
+
+.sign-footer {
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+.sign-footer i {
+    font-size: 24px;
+    color: rgb(35, 99, 173);
+}
+
+.new {
+    color: rgb(161, 161, 161);
+    font-size: 15px;
+}
+
+.sign {
+    font-size: 13px;
+    color: rgb(161, 161, 161);
+    text-decoration: none;
+}
+
+.signn {
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+.signn:hover {
+    text-decoration: underline;
+}
+
+.signnn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(34, 98, 216);
+}
+
+.signnn:hover {
+    text-decoration: underline;
+}
+
+.sign-footer {
+    color: rgb(161, 161, 161);
+    font-size: 14px;
+}
+
+.col-1,
+.col-2 {
+    margin-bottom: 15px;
+}
+
+.col-1 i {
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    background-color: rgb(20, 66, 192);
+    padding: 4px 5px;
+    border-radius: 1px;
+}
+
+.footer {
+    margin-top: 60px;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 40px 160px;
+}
+
+.big {
+    color: rgb(161, 161, 161);
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.big:hover {
+    text-decoration: underline;
+}
+
+.small {
+    color: rgb(161, 161, 161);
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.small:hover {
+    text-decoration: underline;
+}
+
+.small-links {
+    padding-top: 20px;
+}
+
+.small-links a {
+    display: inline-block;
+    width: 30%;
+}
+
+
+.footer select {
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.85);
+    color: rgb(161, 161, 161);
+    padding: 14px 24px;
+}
+
+.footer i {
+    color: white;
+    font-size: 24px;
+}
+
+@media only screen and (max-width:740px) {
+    body {
+        background-image: none;
+        background-color: black;
+    }
+
+    .form {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .footer {
+        border-top: 1px solid rgb(161, 161, 161);
+        padding: 40px 0;
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .logo {
+        width: 160px;
+        height: 55px;
+    }
+}
